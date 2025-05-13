@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: hair-style
+  profiles:
+    active: ${SPRING_PROFILE:local}
